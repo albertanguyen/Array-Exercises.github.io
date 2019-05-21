@@ -33,6 +33,8 @@ console.log(inventors.map(element => element.split(' ', 2)[0]).join(', '));
 
 // sum of Fibonacci sequence
 function Fib(array) {
+    if (n = 0) {return 0;}
+    if (n = 1) {return 1;}
     return array.reduce((accumulator, currentvalue) => accumulator+currentvalue);
 }
 
